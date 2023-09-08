@@ -50,10 +50,10 @@ public class MenuItems {
     public void setCategory(String category){
         this.category = category;
     }
-    public boolean isNovelty(){
+    public boolean isNovelty() {
         return novelty;
     }
 
-
     // add Instance Methods
+
 }

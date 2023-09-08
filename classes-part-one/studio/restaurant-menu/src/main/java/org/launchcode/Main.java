@@ -16,7 +16,24 @@ public class Main {
         menu1.addItem(main1);
         menu1.addItem(dessert1);
 
+        // add last update date to menu
+
         // print menu
         menu1.printMenu();
+
+        // remove items from menu
+        menu1.removeItem(appetizer1);
+
+        // print menu with removed item
+        menu1.printMenu();
+
+        // print item in menu
+        menu1.printItemInMenu(main1);
+
+        // call Last Update
+        //menu1.lastUpdate();
+
+        // call equal method
+
     }
 }
